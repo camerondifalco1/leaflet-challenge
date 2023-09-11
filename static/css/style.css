@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* add style requirements for legend contents and box */
+.legend {
+  background: #FFFFFF;
+  line-height: 20px;
+  color: #03023B;
+  border-radius: 5px;
+  padding: 1px 10px;
+}
+
+.legend i {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.75;
+}
+
+.legend h3 {
+  padding: 2px;
+  margin: 5px;
+}
